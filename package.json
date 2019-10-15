@@ -1,0 +1,29 @@
+{
+  "name": "whitepanda-carrental",
+  "version": "1.0.0",
+  "description": "A node.js restful API project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "engines" : {
+    "node" : "10.16.3"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "Vishal Parekh",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.5"
+  },
+  "devDependencies": {
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.3"
+  }
+}
