@@ -1,6 +1,5 @@
 const express = require('express');
 const productRoutes = require('./api/routes/product');
-const bookingRoutes = require('./api/routes/book');
 const mongoose = require('mongoose');
 const app = express();
 const morgan = require('morgan');
